@@ -87,3 +87,16 @@ git push
 ## 1.3 added  SLF4J logging in my Spring Boot REST API application and tested
 
 ## 1.4 Add global exception handling using @ControllerAdvice and @ExceptionHandler
+
+## 1.5## Docker Support
+### Build Image
+```bash
+## Docker Support
+
+### Build Image
+```bash
+docker build -t first .
+docker run -p8081:8081 --name first-sb-rest-api first
+
+### Run Container
+docker run -p 8081:8081 first-sb-rest-api
